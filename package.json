@@ -1,0 +1,32 @@
+{
+  "name": "gitcloner",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "gitCloner": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduDevHe/GitCloner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduDevHe/GitCloner/issues"
+  },
+  "homepage": "https://github.com/EduDevHe/GitCloner#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "node-fetch": "^3.3.0"
+  }
+}
