@@ -1,4 +1,4 @@
 #!/usr/bin/node
 
-import { gitCloner } from "./../build/gitCloner.js";
+import gitCloner from "./../build/gitCloner.js";
 gitCloner();
