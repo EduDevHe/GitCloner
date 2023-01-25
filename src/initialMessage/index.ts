@@ -1,8 +1,8 @@
 import figlet from "figlet";
-import chalk from "chalk";
+
 import chalkAnimation from "chalk-animation";
 import gradient from "gradient-string";
-import stop from "../stop/index.js";
+
 async function initialMessage() {
   // console.clear();
   const message = "Git-Cloner \n";

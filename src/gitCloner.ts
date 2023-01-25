@@ -6,4 +6,5 @@ async function gitCloner() {
 
   await initialMessage();
 }
-export default gitCloner;
+
+gitCloner();
