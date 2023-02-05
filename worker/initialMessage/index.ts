@@ -1,18 +1,18 @@
-import figlet from "figlet";
+import figlet from "npm:figlet";
 
-import chalkAnimation from "chalk-animation";
-import gradient from "gradient-string";
+import chalkAnimation from "npm:chalk-animation";
+import gradient from "npm:gradient-string";
 
 async function initialMessage() {
-  // console.clear();
+  console.clear();
   const message = "Git-Cloner \n";
 
-  figlet(message, (err, data) => {
+  await figlet(message, (err, data: string) => {
     console.log(gradient.rainbow.multiline(data));
   });
 
   const messageToWelcome = chalkAnimation.rainbow(
-    "Welcome to Git-Cloner CLI \n"
+    "Welcome to Git-Cloner CLI \n",
   );
 
   setTimeout(() => {
